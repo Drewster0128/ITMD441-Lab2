@@ -68,7 +68,11 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	grid-template-rows: 100px 100px;
+	grid-template-columns: auto auto auto auto;
+	column-gap: 20px;
+	row-gap: 20px;
 }
 
 /* end Grid Part 1 */
